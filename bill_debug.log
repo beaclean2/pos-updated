@@ -1,0 +1,200 @@
+[2025-03-27 15:01:33] Received data: Array
+(
+    [bill_number] => BILL-1743084093045
+    [bill_total] => 40
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 1
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743084093045","bill_total":40,"bill_created_by":2,"items":[{"product_name":"ANDAZI","product_qty":1,"product_price":40}]}
+[2025-03-27 15:01:33] Error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pos.pos_bill' doesn't exist
+[2025-03-27 15:04:13] Received data: Array
+(
+    [bill_number] => BILL-1743084253949
+    [bill_total] => 40
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 1
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743084253949","bill_total":40,"bill_created_by":2,"items":[{"product_name":"ANDAZI","product_qty":1,"product_price":40}]}
+[2025-03-27 15:04:13] Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bill_number' in 'field list'
+[2025-03-27 15:06:38] Received data: Array
+(
+    [bill_number] => BILL-1743084398807
+    [bill_total] => 40
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 1
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743084398807","bill_total":40,"bill_created_by":2,"items":[{"product_name":"ANDAZI","product_qty":1,"product_price":40}]}
+[2025-03-27 15:06:38] Bill created successfully. Bill ID: 1
+[2025-03-27 15:11:19] Received data: Array
+(
+    [bill_number] => BILL-1743084679364
+    [bill_total] => 40
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 1
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743084679364","bill_total":40,"bill_created_by":2,"items":[{"product_name":"ANDAZI","product_qty":1,"product_price":40}]}
+[2025-03-27 15:11:19] Bill created successfully. Bill ID: 2
+[2025-03-27 15:12:22] Received data: Array
+(
+    [bill_number] => BILL-1743084742987
+    [bill_total] => 40
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 1
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743084742987","bill_total":40,"bill_created_by":2,"items":[{"product_name":"ANDAZI","product_qty":1,"product_price":40}]}
+[2025-03-27 15:12:23] Bill created successfully. Bill ID: 3
+[2025-03-29 09:09:15] Received data: Array
+(
+    [bill_number] => BILL-1743235755265
+    [bill_total] => 40
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 1
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743235755265","bill_total":40,"bill_created_by":2,"items":[{"product_name":"ANDAZI","product_qty":1,"product_price":40}]}
+[2025-03-29 09:09:15] Bill created successfully. Bill ID: 4
+[2025-03-29 10:18:21] Received data: Array
+(
+    [bill_number] => BILL-1743239901704
+    [bill_total] => 250
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => TOAST MAYAI
+                    [product_qty] => 1
+                    [product_price] => 250
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743239901704","bill_total":250,"bill_created_by":2,"items":[{"product_name":"TOAST MAYAI","product_qty":1,"product_price":250}]}
+[2025-03-29 10:18:21] Bill created successfully. Bill ID: 5
+[2025-03-31 09:23:59] Received data: Array
+(
+    [bill_number] => BILL-1743405839895
+    [bill_total] => 200
+    [bill_created_by] => 1
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => ANDAZI
+                    [product_qty] => 5
+                    [product_price] => 40
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743405839895","bill_total":200,"bill_created_by":1,"items":[{"product_name":"ANDAZI","product_qty":5,"product_price":40}]}
+[2025-03-31 09:23:59] Bill created successfully. Bill ID: 6
+[2025-03-31 16:58:27] Received data: Array
+(
+    [bill_number] => BILL-1743433107914
+    [bill_total] => 120
+    [bill_created_by] => 2
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => new dish
+                    [product_qty] => 1
+                    [product_price] => 120
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743433107914","bill_total":120,"bill_created_by":2,"items":[{"product_name":"new dish","product_qty":1,"product_price":120}]}
+[2025-03-31 16:58:27] Bill created successfully. Bill ID: 7
+[2025-04-01 00:46:28] Received data: Array
+(
+    [bill_number] => BILL-1743461188034
+    [bill_total] => 17800
+    [bill_created_by] => 1
+    [items] => Array
+        (
+            [0] => Array
+                (
+                    [product_name] => CABERNET WINE
+                    [product_qty] => 1
+                    [product_price] => 17800
+                )
+
+        )
+
+)
+
+Raw input: {"bill_number":"BILL-1743461188034","bill_total":17800,"bill_created_by":1,"items":[{"product_name":"CABERNET WINE","product_qty":1,"product_price":17800}]}
+[2025-04-01 00:46:28] Bill created successfully. Bill ID: 8
